@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 const bedrock = require('bedrock-protocol');
 
 // Replace with your webhook URL
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1297609003123216524/ez0RnlIKJ9hC-PLLty7fUkCb1mkY7aeTR0q2sTqIaqXWgoAP2ON6RRwfYO5kNp8WuXL7';
+const WEBHOOK_URL = 'INSERT_WEBHOOK_HERE';
 
 // Minecraft bot options
 const botOptions = {
@@ -210,3 +210,4 @@ async function sendWebhookMessage(message) {
 client.login(process.env.TOKEN).catch(err => {
   console.error('Failed to login:', err);
 });
+
